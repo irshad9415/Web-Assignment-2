@@ -1,28 +1,166 @@
-<!DOCTYh3E html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    
-   <style>h3{color: brown;}
-    body{background-color:antiquewhite};</style>
-    <title>Assignment 1</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 2</title>
 </head>
 <body>
+
+    <div>
+        <p> (a) Apply in-line CSS to change colors of certain text portion, bold, underline and italics 
+            certain words in your HTML web page. Also change background color of each paragraph 
+            using in-line CSS.</p>
+        
+        <p style="background-color: red; font-style: italic; font-weight: bold; color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, ullam.</p>
+        <p style="background-color: blue;   color: white;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni, ullam.</p>
+        
+    </div>
+
+    <hr>
+
+<div>
+    <p>
+        (b) Write all the above styling in CSS in different file (.css) and link it to your webpage such 
+        that changes made in CSS file are immediately reflected on the page. Group paragraphs 
+        into single class and add styling information to the class in CSS.
+    </p>
     
-    <center><h1>Assignment-1</h1></center><br>
-    <h2>Name : Irshad Akaram</h2>
-    <ul>
-    <li><a target="_blank" href="1.html"><h3>1. Create a webpage with HTML describing your department. Use paragraph and list tags." </h3></a></li><br>
-    <li><a target="_blank" href="2.html"><h3>2. Apply various colors to suitably distinguish key words. Also apply font styling like
-        italics, underline and two other fonts to words you find appropriate. Also use header tags.</h3></a</li><br>
-    <li><a target="_blank" href="3.html"><h3>3. Create links on the words e.g. “Wi-Fi” and “LAN” to link them to Wikih3edia pages.</h3></a></li><br>
-    <li><a target="_blank" href="4.html"><h3>4. Insert an image and create a link such that clicking on image takes user to other page.</a></li><br>
-    <li><a target="_blank" href="5.html"><h3>5. Change the background color of the page. At the bottom create a link to take user to the
-        top of the page</h3> </li> </a><br>
-    <li><a target="_blank" href="5.html"><h3>6. Create a table to show your class time-table.</h3></a><br>
-    <li><a target="_blank" href="7.html"><h3>7. Use tables to h3rovide layout to your HTML page describing your university infrastructure.</h3></a></li><br>
-    <li><a target="_blank" href="8.html"><h3>8. Use frames such that page is divided into 3 frames 20% on left to show contents of pages, 60% in center to show body of page, remaining on right to show remarks.</h3></a></li><br>
-    <li><a target="_blank" href="9.html"><h3>9. Embed Audio and Video into your HTML web page.</h3></a></li><br>
-    <li><a target="_blank" href="10.html"><h3>10. Change the background color of the frames.</h3></a><br></li>
-    </ul>>
+    <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, magni.</p>
+    <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, magni.</p>
+    <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, magni.</p>
+    <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, magni.</p>
+    <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, magni.</p>
+    <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta, magni.</p>
+
+</div>
+
+<hr>
+    
+
+
+
+
+
+<div class="form">
+    <p>(c) Create a simple form to submit user input like his name, age, address and favorite subject, 
+        movie and singer.</p>
+    <form>
+        <label>Full Name :</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label>Age :</label>
+        <input type="text" name="age" id="age">
+        <br>
+    
+        <label>Address :</label>
+        <input type="text" name="address" id="address">
+    
+        <br>
+        <label>Favorite Subject : </label>
+        <input type="text" name="fav-subject" id="fav-subject">
+        <br>
+        <label>Movie : </label>
+        <input type="text" name="movie" id="movie">
+        <br>
+        <label>Singer : </label>
+        <input type="text" name="singer" id="singer">
+        <br>
+        <input type="button" value="submit" id="submit">
+    
+    </form>
+
+</div>
+
+
+
+<div class="form">
+    <p>
+        (d) Add few form elements such as radio buttons, check boxes and password field. Add a 
+        submit button at last.
+        </p>
+    <form>
+        <label>Username</label>
+        <input type="text" name="username" id="username">
+        <br>
+    
+        <label for="">Gender</label>
+        <br>
+        <label for="">Male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="">Female</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <br>
+        
+        <label>Password</label>
+        <input type="text" name="age" id="age">
+        <br>
+    
+        <label>Confirm Password</label>
+        <input type="text" name="address" id="address">
+        <br>
+        <label for="">Remember Me</label>
+        <input type="checkbox" name="remember-me" id="remember-me" value="remember-me">
+        <br>
+        <input type="button" value="submit" id="submit">
+    </form>
+    
+</div>
+
+
+
+
+
+<div class="form">
+    <p>
+        (e) Create a registration form. Put validation checks on values entered by the user using 
+        JavaScript.
+    </p>
+    <h3>Fill the Form </h3>
+    <form id="formSubmit">
+
+        <label>Full Name :</label>
+        <input type="text" name="name" id="name1">
+        <br>
+        <label>Age :</label>
+        <input type="text" name="age" id="age1">
+        <br>
+    
+        <label>Address :</label>
+        <input type="text" name="address" id="address1">
+    
+        <br>
+        <label>Favorite Subject : </label>
+        <input type="text" name="fav-subject" id="fav-subject1">
+        <br>
+        <label>Movie : </label>
+        <input type="text" name="movie" id="movie1">
+        <br>
+        <label>Singer : </label>
+        <input type="text" name="singer" id="singer1">
+        <br>
+        <input type="submit" value="submit" id="submit1">
+
+    </form>
+
+    <div id="output">
+        <h2>Submit the form to see the output</h2>
+    </div>
+</div>
+
+
+
+
+<!-- (f) Write a JavaScript program to display information box as soon as page loads. -->
+
+
+
+
+<script src="app.js"></script>
+
+
+
 </body>
 </html>

@@ -1,0 +1,18 @@
+.paragraph {
+    padding: 10px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+input{
+    margin: 10px 0px;
+}
+
+
+
+.form{
+    margin: 10px 0px;
+    border: 1px solid black;
+    padding: 20px 20px;
+}
+
